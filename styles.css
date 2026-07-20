@@ -35,7 +35,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .eyebrow { text-transform: uppercase; letter-spacing: .16em; font-size: .72rem; font-weight: 600; }
 .status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #5da247; margin-right: .55rem; box-shadow: 0 0 0 4px rgba(93,162,71,.12); }
 h1, h2, h3 { font-family: var(--display); margin: 0; font-weight: 500; letter-spacing: -.055em; line-height: .98; }
-h1 { max-width: 920px; font-size: clamp(3.3rem, 7.6vw, 7.4rem); }
+h1 { max-width: 920px; font-size: clamp(3rem, 5.8vw, 6.25rem); }
 h2 { font-size: clamp(2.4rem, 5vw, 5.4rem); max-width: 920px; }
 h3 { font-size: clamp(3rem, 5vw, 5.8rem); }
 h1 em, h2 em { font-family: Georgia, serif; font-weight: 400; }
@@ -102,6 +102,7 @@ h1 em, h2 em { font-family: Georgia, serif; font-weight: 400; }
 .contact { background: var(--coffee); color: #fff8ef; padding-top: clamp(5rem, 10vw, 9rem); padding-bottom: clamp(5rem, 10vw, 9rem); text-align: center; display: flex; flex-direction: column; align-items: center; }
 .contact h2 { max-width: 900px; }
 .contact p:not(.eyebrow) { max-width: 540px; line-height: 1.6; margin: 2rem auto; opacity: .82; }
+.contact-links { display: flex; align-items: center; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
 .footer { min-height: 110px; display: flex; justify-content: space-between; align-items: center; font-size: .8rem; }
 .footer p { color: var(--muted); }
 
@@ -126,7 +127,7 @@ h1 em, h2 em { font-family: Georgia, serif; font-weight: 400; }
   .menu-button { display: block; z-index: 2; }
   .nav { position: absolute; left: 0; right: 0; top: 0; padding: 5.5rem 1.25rem 2rem; background: var(--paper); flex-direction: column; transform: translateY(-110%); transition: transform .25s; border-bottom: 1px solid var(--line); }
   .nav.open { transform: translateY(0); }
-  h1 { font-size: clamp(3rem, 15vw, 4.8rem); }
+  h1 { font-size: clamp(2.8rem, 12vw, 4.1rem); }
   .hero { min-height: 780px; gap: 2rem; }
   .hero-meta { display: grid; }
   .project { min-height: auto; padding: 1.25rem; }
