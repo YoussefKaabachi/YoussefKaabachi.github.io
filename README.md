@@ -21,5 +21,4 @@ Dieses Verzeichnis ist als eigenständiges Repository vorgesehen. Nach dem Hochl
 - Kontakt-E-Mail
 - LinkedIn-Profil (optional)
 - Lebenslauf als PDF (optional)
-- direkter Link zum öffentlichen Echolot-Repository
 - persönliche Aufgaben/Rolle in beiden Teamprojekten
